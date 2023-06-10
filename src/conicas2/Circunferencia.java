@@ -15,12 +15,14 @@ public class Circunferencia {
     public void setAngulo_central(float angulo_central) {
         this.angulo_central = angulo_central;
     }
+
     private float getRadio_cir() {
         return this.radio_cir;
     }
-    private void setRadio_cir(float radio_cir) {
+    public void setRadio_cir(float radio_cir) {
         this.radio_cir = radio_cir;
     }
+
     public double perimetro_cir() {
         double aux = this.pi * 2.0;
         return aux * (double)this.getRadio_cir();
